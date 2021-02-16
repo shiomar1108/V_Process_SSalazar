@@ -12,10 +12,10 @@
 			<_id type="a">GUID 7a143fea-c835-4fe6-958c-d404aa7cefc2</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PhysicalArchitecture</_name>
-			<_modifiedTimeWeak type="a">2.16.2021::1:38:38</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.16.2021::1:38:38</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.16.2021::4:17:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.16.2021::4:17:53</_modifiedTime>
 			<_lastID type="a">86</_lastID>
-			<weakCGTime type="a">2.16.2021::1:38:38</weakCGTime>
+			<weakCGTime type="a">2.16.2021::4:17:53</weakCGTime>
 			<strongCGTime type="a">1.17.2021::18:22:9</strongCGTime>
 			<_defaultComposite type="s">GUID 087dc4f9-2b6e-4c90-8656-7b133ca1df59</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -6658,6 +6658,10 @@
 			<m_displayOption type="a">Public</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">3</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIObjectInstance type="e">
 			<_id type="a">GUID d8a18ea2-2e49-4325-9e9b-f3907111cd1c</_id>
@@ -8478,6 +8482,11 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">1</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">4</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIClass type="e">
 			<_id type="a">GUID e51fa81b-ae4c-4ca3-8f49-bdb98e7a9dfe</_id>
@@ -8893,6 +8902,9 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">1</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIClass type="e">
 			<_id type="a">GUID ab1d06d0-e7ee-4d86-944e-6f50ab47489c</_id>
@@ -13837,6 +13849,10 @@
 			<m_displayOption type="a">Public</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">3</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIObjectInstance type="e">
 			<_id type="a">GUID d95bcdda-528d-4fcd-a0bb-0b49514cd435</_id>
@@ -17547,8 +17563,8 @@
 			</_properties>
 			<_name type="a">sqd_DriverDoor_OpenClose</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.16.2021::1:38:4</_modifiedTime>
-			<_lastModifiedTime type="a">2.16.2021::1:38:4</_lastModifiedTime>
+			<_modifiedTime type="a">2.16.2021::4:18:1</_modifiedTime>
+			<_lastModifiedTime type="a">2.16.2021::4:18:1</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -18571,7 +18587,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">0.765531 0 0 1 17.9196 1 </m_transform>
+			<m_transform type="a">0.860721 0 0 1 -106.685 1 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_bFramesetModified type="a">1</m_bFramesetModified>
 			<m_polygon type="a">4 311 249  1309 249  1309 898  311 898  </m_polygon>
@@ -18712,7 +18728,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">0.996605 0 0 1 -23.6237 -33 </m_transform>
+			<m_transform type="a">0.999063 0 0 1 -21.6403 -33 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_bFramesetModified type="a">1</m_bFramesetModified>
 			<m_polygon type="a">4 362 315  1290 315  1290 564  362 564  </m_polygon>
@@ -18853,7 +18869,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">1.05096 0 0 1 -62.4471 -43 </m_transform>
+			<m_transform type="a">1.03903 0 0 1 -41.6041 -43 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_bFramesetModified type="a">1</m_bFramesetModified>
 			<m_polygon type="a">4 374 643  1254 643  1254 909  374 909  </m_polygon>
@@ -20427,8 +20443,8 @@
 			</_properties>
 			<_name type="a">sqd_DoorLockingbtn</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.16.2021::1:40:40</_modifiedTime>
-			<_lastModifiedTime type="a">2.16.2021::1:40:40</_lastModifiedTime>
+			<_modifiedTime type="a">2.16.2021::4:17:40</_modifiedTime>
+			<_lastModifiedTime type="a">2.16.2021::4:17:42</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -21301,7 +21317,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">5.47685 0 0 5.51515 8 20 </m_transform>
+			<m_transform type="a">4.22222 0 0 5.51515 8 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -21352,7 +21368,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">1.18356 0 0 1 -83.5722 16 </m_transform>
+			<m_transform type="a">0.815316 0 0 1 17.7657 16 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_bFramesetModified type="a">1</m_bFramesetModified>
 			<m_polygon type="a">4 172 205  1060 205  1060 612  172 612  </m_polygon>
@@ -21544,7 +21560,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
-			<m_transform type="a">1 0 0 0.0135913 806 50 </m_transform>
+			<m_transform type="a">1 0 0 0.0135913 804 50 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -21598,7 +21614,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
-			<m_transform type="a">1 0 0 0.0135913 700 50 </m_transform>
+			<m_transform type="a">1 0 0 0.0135913 698 50 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -21652,7 +21668,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
-			<m_transform type="a">1.15625 0 0 0.0135913 577 50 </m_transform>
+			<m_transform type="a">1.15625 0 0 0.0135913 575 50 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -28858,7 +28874,7 @@
 			<IGeneralization type="e">
 				<_id type="a">GUID 3cad70c6-7d04-44a4-9b4a-e06618725cce</_id>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">12.31.1969::18:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_dependsOn type="r">
 					<INObjectHandle type="e">
 						<_hm2Class type="a">IClass</_hm2Class>
@@ -28881,14 +28897,10 @@
 				</IRPYRawContainer>
 			</m_LayoutOwners>
 			<LayoutLabels type="a">iButton@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 19 1 6 1 0 0 1 0 0 
-%BB@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 -67 -25 1 8 1 0 0 1 0 0 
-%BBpp_Button@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 -19 1 0 1 0 0 1 0 0 
-%BB@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 45 -15 0 -29 1 0 1 0 0 1 0 0 
-</LayoutLabels>
+ 1 0 0   0 0 0 0 0 19 1 6 1 0 0 1 0 0%BB@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 -67 -25 1 8 1 0 0 1 0 0%BBpp_Button@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 0 -19 1 0 1 0 0 1 0 0%BB@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 45 -15 0 -29 1 0 1 0 0 1 0 0</LayoutLabels>
 		</IPort>
 		<IPort type="e">
 			<_id type="a">GUID 6942e359-52f2-4036-9ca5-f6fb9b3b211d</_id>
@@ -28980,19 +28992,15 @@
 				</IRPYRawContainer>
 			</m_LayoutOwners>
 			<LayoutLabels type="a">@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 67 -25 1 8 1 0 0 1 0 0 
-%BBiApp@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 19 1 6 1 0 0 1 0 0 
-%BBrp_App@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 -19 1 0 1 0 0 1 0 0 
-%BB@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 45 -15 0 -29 1 0 1 0 0 1 0 0 
-</LayoutLabels>
+ 1 0 0   0 0 0 0 67 -25 1 8 1 0 0 1 0 0%BBiApp@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 0 19 1 6 1 0 0 1 0 0%BBrp_App@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 0 -19 1 0 1 0 0 1 0 0%BB@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 45 -15 0 -29 1 0 1 0 0 1 0 0</LayoutLabels>
 		</IPort>
 		<IGeneralization type="e">
 			<_id type="a">GUID 882d8cd8-e121-4209-a161-d75e679cb782</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::18:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
@@ -29039,10 +29047,6 @@
 			<_id type="a">GUID 291d05cd-868e-4e93-bda3-aabe47bbf351</_id>
 			<_myState type="a">73728</_myState>
 			<_name type="a">CANManager</_name>
-			<OwnedDependencies type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</OwnedDependencies>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -38377,6 +38381,11 @@ Byte_7_CRS = CRC%0D
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">1</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">4</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIPortConnector type="e">
 			<_id type="a">GUID b666ba3d-2961-4456-96d5-218d99b711f0</_id>
@@ -42124,6 +42133,11 @@ Configure all the other aspect fo the serial port</_body>
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">1</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">4</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIPortConnector type="e">
 			<_id type="a">GUID c1dc8269-e2ac-43f6-9e7e-77a28daa7268</_id>
@@ -43271,6 +43285,9 @@ Configure all the other aspect fo the serial port</_body>
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">1</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIClass type="e">
 			<_id type="a">GUID 65f3f0a8-d9df-4cb8-ba30-79188800c441</_id>
@@ -47830,14 +47847,10 @@ Configure all the other aspect fo the serial port</_body>
 				</IRPYRawContainer>
 			</m_LayoutOwners>
 			<LayoutLabels type="a">@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 67 -25 1 8 1 0 0 1 0 0 
-%BBiCANTransmit@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 19 1 4 1 0 0 1 0 0 
-%BBrp_CANTx@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 -19 1 2 1 0 0 1 0 0 
-%BB@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 45 -15 0 -29 1 2 1 0 0 1 0 0 
-</LayoutLabels>
+ 1 0 0   0 0 0 0 67 -25 1 8 1 0 0 1 0 0%BBiCANTransmit@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 0 19 1 4 1 0 0 1 0 0%BBrp_CANTx@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 0 -19 1 2 1 0 0 1 0 0%BB@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 45 -15 0 -29 1 2 1 0 0 1 0 0</LayoutLabels>
 		</IPort>
 		<IPort type="e">
 			<_id type="a">GUID 9d895759-2eb3-4814-a792-863ebfcc794d</_id>
@@ -47929,14 +47942,10 @@ Configure all the other aspect fo the serial port</_body>
 				</IRPYRawContainer>
 			</m_LayoutOwners>
 			<LayoutLabels type="a">@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 67 -25 1 8 1 0 0 1 0 0 
-%BBiVariant@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 19 1 6 1 0 0 1 0 0 
-%BBrp_ManuInfo@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 -19 1 0 1 0 0 1 0 0 
-%BB@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 45 -15 0 -29 1 0 1 0 0 1 0 0 
-</LayoutLabels>
+ 1 0 0   0 0 0 0 67 -25 1 8 1 0 0 1 0 0%BBiVariant@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 0 19 1 6 1 0 0 1 0 0%BBrp_ManuInfo@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 0 -19 1 0 1 0 0 1 0 0%BB@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 45 -15 0 -29 1 0 1 0 0 1 0 0</LayoutLabels>
 		</IPort>
 		<IPort type="e">
 			<_id type="a">GUID 284417c8-ea68-4424-84a9-1566371f72de</_id>
@@ -48028,14 +48037,10 @@ Configure all the other aspect fo the serial port</_body>
 				</IRPYRawContainer>
 			</m_LayoutOwners>
 			<LayoutLabels type="a">@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 67 -25 1 8 1 0 0 1 0 0 
-%BBiActuator@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 19 1 6 1 0 0 1 0 0 
-%BBrp_ActuatorInfo@end$ Arial; 10 0 0 0 1  0 0 1
- 4 -27 -8  66 -8  66 6  -27 6   0 0 0 0 -1 -19 1 0 1 0 0 1 1195 161 
-%BB@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 45 -15 0 -29 1 0 1 0 0 1 0 0 
-</LayoutLabels>
+ 1 0 0   0 0 0 0 67 -25 1 8 1 0 0 1 0 0%BBiActuator@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 0 19 1 6 1 0 0 1 0 0%BBrp_ActuatorInfo@end$ Arial; 10 0 0 0 1  0 0 1
+ 4 -27 -8  66 -8  66 6  -27 6   0 0 0 0 -1 -19 1 0 1 0 0 1 1195 161%BB@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 45 -15 0 -29 1 0 1 0 0 1 0 0</LayoutLabels>
 		</IPort>
 		<IPort type="e">
 			<_id type="a">GUID 639a02ee-c178-496f-81cc-9065a9fc1ed5</_id>
@@ -48127,14 +48132,10 @@ Configure all the other aspect fo the serial port</_body>
 				</IRPYRawContainer>
 			</m_LayoutOwners>
 			<LayoutLabels type="a">@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 67 -25 1 8 1 0 0 1 0 0 
-%BBiSerialLog@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 19 1 6 1 0 0 1 0 0 
-%BBrp_SerialInfo@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 -19 1 0 1 0 0 1 0 0 
-%BB@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 45 -15 0 -29 1 0 1 0 0 1 0 0 
-</LayoutLabels>
+ 1 0 0   0 0 0 0 67 -25 1 8 1 0 0 1 0 0%BBiSerialLog@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 0 19 1 6 1 0 0 1 0 0%BBrp_SerialInfo@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 0 -19 1 0 1 0 0 1 0 0%BB@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 45 -15 0 -29 1 0 1 0 0 1 0 0</LayoutLabels>
 		</IPort>
 		<IPort type="e">
 			<_id type="a">GUID 10a2fe9b-c335-46e4-b4fb-336d609cf6cc</_id>
@@ -48226,14 +48227,10 @@ Configure all the other aspect fo the serial port</_body>
 				</IRPYRawContainer>
 			</m_LayoutOwners>
 			<LayoutLabels type="a">@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 67 -25 1 8 1 0 0 1 0 0 
-%BBiCANRecieve@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 19 1 4 1 0 0 1 0 0 
-%BBrp_CANRx@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 -19 1 2 1 0 0 1 0 0 
-%BB@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 45 -15 0 -29 1 2 1 0 0 1 0 0 
-</LayoutLabels>
+ 1 0 0   0 0 0 0 67 -25 1 8 1 0 0 1 0 0%BBiCANRecieve@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 0 19 1 4 1 0 0 1 0 0%BBrp_CANRx@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 0 -19 1 2 1 0 0 1 0 0%BB@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 45 -15 0 -29 1 2 1 0 0 1 0 0</LayoutLabels>
 		</IPort>
 		<IPort type="e">
 			<_id type="a">GUID 4471d65a-9947-4308-a930-e50d263e0b98</_id>
@@ -48325,14 +48322,10 @@ Configure all the other aspect fo the serial port</_body>
 				</IRPYRawContainer>
 			</m_LayoutOwners>
 			<LayoutLabels type="a">@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 67 -25 1 8 1 0 0 1 0 0 
-%BBiButton@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 19 1 4 1 0 0 1 0 0 
-%BBrp_Button@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 -19 1 2 1 0 0 1 0 0 
-%BB@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 45 -15 0 -29 1 2 1 0 0 1 0 0 
-</LayoutLabels>
+ 1 0 0   0 0 0 0 67 -25 1 8 1 0 0 1 0 0%BBiButton@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 0 19 1 4 1 0 0 1 0 0%BBrp_Button@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 0 -19 1 2 1 0 0 1 0 0%BB@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 45 -15 0 -29 1 2 1 0 0 1 0 0</LayoutLabels>
 		</IPort>
 		<IPort type="e">
 			<_id type="a">GUID fd498753-d6f2-4c0d-be00-5b66be6270a3</_id>
@@ -48383,7 +48376,7 @@ Configure all the other aspect fo the serial port</_body>
 			<IGeneralization type="e">
 				<_id type="a">GUID 130caa9f-49a9-4a94-933c-9a35352d71bf</_id>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">12.31.1969::18:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_dependsOn type="r">
 					<INObjectHandle type="e">
 						<_hm2Class type="a">IClass</_hm2Class>
@@ -48406,14 +48399,10 @@ Configure all the other aspect fo the serial port</_body>
 				</IRPYRawContainer>
 			</m_LayoutOwners>
 			<LayoutLabels type="a">iApp@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 19 1 4 1 0 0 1 0 0 
-%BB@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 -67 -25 1 8 1 0 0 1 0 0 
-%BBpp_App@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 0 0 0 -19 1 2 1 0 0 1 0 0 
-%BB@end$ Arial; 10 0 0 0 1  0 0 1
- 1 0 0   0 0 45 -15 0 -29 1 2 1 0 0 1 0 0 
-</LayoutLabels>
+ 1 0 0   0 0 0 0 0 19 1 4 1 0 0 1 0 0%BB@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 -67 -25 1 8 1 0 0 1 0 0%BBpp_App@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 0 0 0 -19 1 2 1 0 0 1 0 0%BB@end$ Arial; 10 0 0 0 1  0 0 1
+ 1 0 0   0 0 45 -15 0 -29 1 2 1 0 0 1 0 0</LayoutLabels>
 		</IPort>
 		<IPrimitiveOperation type="e">
 			<_id type="a">GUID 51ce99d9-822f-4a6e-b6ea-b6b5c5659463</_id>
@@ -56860,7 +56849,7 @@ Initialize ErrorData Variable = 0</_body>
 		<IGeneralization type="e">
 			<_id type="a">GUID 7b3c1e37-6030-4bb1-aea3-3408bfd89f7b</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::18:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
@@ -56874,10 +56863,6 @@ Initialize ErrorData Variable = 0</_body>
 			<_id type="a">GUID 9df5c95a-47c2-4bed-8fc2-f8fbe1c93fb9</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ManufacturingManager</_name>
-			<OwnedDependencies type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</OwnedDependencies>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
