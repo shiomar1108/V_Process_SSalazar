@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1613617479 source:c:\users\ssalazar\documents\personal\courses\diplomado_embedded\modulo2\act3.1_papeleria\app.c
+	"App.h"
+
+1613616803 c:\users\ssalazar\documents\personal\courses\diplomado_embedded\modulo2\act3.1_papeleria\app.h
+	<stdbool.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1613617341 source:c:\users\ssalazar\documents\personal\courses\diplomado_embedded\modulo2\act3.1_papeleria\main.c
+	"App.h"
+
