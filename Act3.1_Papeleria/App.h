@@ -52,6 +52,7 @@ typedef struct{
 typedef struct{
     Cliente_t comprador;
     Articulo_t objetos[20];
+    int cant_prod;
     int monto_total;
 }Venta_t;
 
@@ -69,8 +70,11 @@ static int index_cliente = 0;
 static int index_articulo = 0;
 
 /* Public Function prototype */
+void App_Init(void);
 int Menu_show(void);
 void Menu_consulta(void);
+void Menu_alta(void);
+void Menu_baja(void);
 
 
 

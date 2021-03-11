@@ -4,6 +4,8 @@ int op_menu = APP_Total;
 
 int main()
 {
+    App_Init();
+
     while (op_menu != App_Salida)
     {
         op_menu = Menu_show();
@@ -11,9 +13,11 @@ int main()
         {
             case APP_Alta:
                 printf("\n Se solicito Operacion de Alta \n");
+                Menu_alta();
             break;
             case APP_Baja:
                 printf("\n Se solicito Operacion de Baja \n");
+                Menu_baja();
             break;
             case App_Consulta:
                 printf("\n Se solicito Operacion de Consulta \n");

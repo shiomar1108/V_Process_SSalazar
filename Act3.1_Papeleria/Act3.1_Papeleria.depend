@@ -12,3 +12,16 @@
 1613617341 source:c:\users\ssalazar\documents\personal\courses\diplomado_embedded\modulo2\act3.1_papeleria\main.c
 	"App.h"
 
+1613699305 source:c:\users\ssalazar\documents\personal\courses\diplomado_embedded\v_process_ssalazar\act3.1_papeleria\main.c
+	"App.h"
+
+1613699201 c:\users\ssalazar\documents\personal\courses\diplomado_embedded\v_process_ssalazar\act3.1_papeleria\app.h
+	<stdbool.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1613746966 source:c:\users\ssalazar\documents\personal\courses\diplomado_embedded\v_process_ssalazar\act3.1_papeleria\app.c
+	"App.h"
+
