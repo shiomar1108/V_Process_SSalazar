@@ -188,15 +188,15 @@ extern void APP_CAN_DCM_RR_update_msg_DCU_4(S_DCU_4 s_DCU_4_Message){
 
 	S_DCU_4 l_CAN_MEssage_DCU_4;
 	// Get the previous message
-	CAN_DCM_RL_get_msg_DCU_3(l_CAN_MEssage_DCU_4);
+	CAN_DCM_RR_get_msg_DCU_4(l_CAN_MEssage_DCU_4);
 	// Update just variables modified for DCM app
 
 		// Update Message Counter Value
-	l_CAN_MEssage_DCU_4.all[BYTE_POS_DCU_3_WindowPos] 	=	s_DCU_4_Message.all[BYTE_POS_DCU_3_WindowPos];
-	l_CAN_MEssage_DCU_4.all[BYTE_POS_DCU_3_WindowOp]	=	s_DCU_4_Message.all[BYTE_POS_DCU_3_WindowOp];
-	l_CAN_MEssage_DCU_4.all[BYTE_POS_DCU_3_DoorLockSts]	=	s_DCU_4_Message.all[BYTE_POS_DCU_3_DoorLockSts];
+	l_CAN_MEssage_DCU_4.all[BYTE_POS_DCU_4_WindowPos] 	=	s_DCU_4_Message.all[BYTE_POS_DCU_4_WindowPos];
+	l_CAN_MEssage_DCU_4.all[BYTE_POS_DCU_4_WindowOp]	=	s_DCU_4_Message.all[BYTE_POS_DCU_4_WindowOp];
+	l_CAN_MEssage_DCU_4.all[BYTE_POS_DCU_4_DoorLockSts]	=	s_DCU_4_Message.all[BYTE_POS_DCU_4_DoorLockSts];
 
-	CAN_DCM_RL_update_msg_DCU_3(l_CAN_MEssage_DCU_4);
+	CAN_DCM_RR_update_msg_DCU_4(l_CAN_MEssage_DCU_4);
 }
 
 

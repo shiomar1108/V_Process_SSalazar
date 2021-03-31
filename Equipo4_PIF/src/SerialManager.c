@@ -46,5 +46,20 @@ void DGB_Error(char* module, char*text)
 	strcat(temp, " !!! \r\n \033[0m");
 
 	LPUART_DRV_SendDataPolling(INST_LPUART_LPUART_1, (uint8_t *)temp, strlen(temp));
+}
+
+void SerialMananger_UnitTest( void )
+{
+	/* --------------------- UTS_SM_TC_1 ------------------ */
+	DGB_Print("SerialManager","Unit Test 1 Pass");
+
+	/* --------------------- UTS_SM_TC_2 ------------------ */
+	DGB_Error("SerialManager","Unit Test 2 Pass");
+
+	/* --------------------- UTS_SM_TC_3 ------------------ */
+	DGB_Print((char*)4,"Unit Test 3 Pass");
+
+	/* --------------------- UTS_SM_TC_4 ------------------ */
+	DGB_Error((char*)4,"Unit Test 4 Pass");
 
 }

@@ -98,6 +98,7 @@ void DCM_Process_Req( void )
 	{
 		(void)DGB_Print(MODULE,"Test Request Received");
 		(void)Test_CMD_Operation();
+		TestRequest_Flag = false;
 	}
 	else
 	{
@@ -167,6 +168,7 @@ static void RemoteRequest_Operation( void )
 		case RearRightDoor:
 			if(APP_Get_avlbl_msg_BCM_2())
 			{
+
 				APP_Clr_avlbl_msg_BCM_2();
 				(void)OpenCloseRemote_OpBCM();
 				(void)LockUnlockRemote_OpBCM();
@@ -178,6 +180,7 @@ static void RemoteRequest_Operation( void )
 			if(APP_Get_avlbl_msg_DCU_1())
 			{
 				APP_Clr_avlbl_msg_DCU_1();
+
 				(void)LockUnlockRemote_OpDCM1();
 				(void)OpenCloseRemote_OpRR();
 			}
@@ -766,4 +769,281 @@ static void CleanWindowControl( void )
 	}
 
 }
+
+void DCM_App_UnitTest( void )
+{
+	uint8_t lock_test = 0;
+	/* --------------------- UTS_APP_TC_1 ------------------ */
+	setManualFlag(true);
+	if(getManualFlag())
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 1: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 1: Failed");
+	}
+	setManualFlag(false);
+	if(!getManualFlag())
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 1: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 1: Failed");
+	}
+
+	/* --------------------- UTS_APP_TC_2 ------------------ */
+	setManualFlag(25);
+	if(!getManualFlag())
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 2: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 2: Failed");
+	}
+	setManualFlag(200);
+	if(!getManualFlag())
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 2: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 2: Failed");
+	}
+
+	/* --------------------- UTS_APP_TC_3 ------------------ */
+	setTestFlag(true);
+	if(getTestFlag())
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 3: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 3: Failed");
+	}
+	setTestFlag(false);
+	if(!getTestFlag())
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 3: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 3: Failed");
+	}
+
+	/* --------------------- UTS_APP_TC_4 ------------------ */
+	setTestFlag(50);
+	if(!getTestFlag())
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 4: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 4: Failed");
+	}
+	setTestFlag("text");
+	if(!getTestFlag())
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 4: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 4: Failed");
+	}
+
+	/* --------------------- UTS_APP_TC_5 ------------------ */
+	gBtn_List.Win_Close = LONG;
+	OpenCloseButton_Op();
+	if(IN_BETWEEN == determineWindowPosition())
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 5: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 5: Failed");
+	}
+
+	/* --------------------- UTS_APP_TC_6 ------------------ */
+	OpenCloseButton_Op();
+	if(IN_BETWEEN == determineWindowPosition())
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 6: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 6: Failed");
+	}
+	OpenCloseButton_Op();
+	if(IN_BETWEEN == determineWindowPosition())
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 6: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 6: Failed");
+	}
+
+	/* --------------------- UTS_APP_TC_7 ------------------ */
+	gBtn_List.Door_Lock = LOCK;
+	lock_test = LockUnlockButton_Op();
+	if(lock_test == 0x01)
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 7: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 7: Failed");
+	}
+
+	/* --------------------- UTS_APP_TC_8 ------------------ */
+	lock_test = LockUnlockButton_Op();
+	if(lock_test == 0x00)
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 8: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 8: Failed");
+	}
+
+	/* --------------------- UTS_APP_TC_9 ------------------ */
+	gBtn_List.Psn_Open = SHORT;
+	SpecialOpenCloseButton_Op();
+	if(gDCU_1.s.DCU_1_WdwCtrl_Pas != 0)
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 9: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 9: Failed");
+	}
+	gBtn_List.RR_Close = SHORT;
+	SpecialOpenCloseButton_Op();
+	if(gDCU_1.s.DCU_1_WdwCtrl_RR != 0)
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 9: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 9: Failed");
+	}
+
+	/* --------------------- UTS_APP_TC_10 ----------------- */
+	SpecialOpenCloseButton_Op();
+	if(gDCU_1.s.DCU_1_WdwCtrl_Pas == 0)
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 10: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 10: Failed");
+	}
+	SpecialOpenCloseButton_Op();
+	if(gDCU_1.s.DCU_1_WdwCtrl_RR == 0)
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 10: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 10: Failed");
+	}
+
+	/* --------------------- UTS_APP_TC_11 ----------------- */
+	gBtn_List.RWin_Lock = LOCK;
+	RearWindowLockUnlock_Op();
+	if(gDCU_1.s.DCU_1_RearWindowLock == 0x01)
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 11: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 11: Failed");
+	}
+	gBtn_List.RWin_Lock = RELEASE;
+	RearWindowLockUnlock_Op();
+	if(gDCU_1.s.DCU_1_RearWindowLock == 0x00)
+	{
+		(void)DGB_Print(MODULE,"UTS_APP_Unit Test 11: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"UTS_APP_Unit Test 11: Failed");
+	}
+}
+ void DCM_APP_IntegrationTest( void )
+{
+	Btn_list_t int_test_new;
+	Btn_list_t int_test_old;
+	uint8_t variant_test = 5;
+	doorlock_sts_config_t lock_test = 5;
+	windowPosition_sts_config_t wind_test = 5;
+
+	/* --------------------- ITS_TestCase_1 ----------------- */
+	int_test_old.RL_Close = SHORT;
+	int_test_old.Door_Lock = LOCK;
+	int_test_old.Win_Close = LONG;
+	setBtnList(int_test_old);
+	int_test_new = getBtnList();
+	if( (int_test_old.RL_Close == int_test_new.RL_Close) &&
+			(int_test_old.Door_Lock == int_test_new.Door_Lock) &&
+			(int_test_old.Win_Close == int_test_new.Win_Close) )
+	{
+		(void)DGB_Print(MODULE,"ITS_TestCase 1: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"ITS_TestCase 1: Failed");
+	}
+
+	/* --------------------- ITS_TestCase_2 ----------------- */
+	setManualFlag(true);
+	if(getManualFlag())
+	{
+		(void)DGB_Print(MODULE,"ITS_TestCase 2: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"ITS_TestCase 2: Failed");
+	}
+	setManualFlag(false);
+	if(!getManualFlag())
+	{
+		(void)DGB_Print(MODULE,"ITS_TestCase 2: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"ITS_TestCase 2: Failed");
+	}
+
+	/* --------------------- ITS_TestCase_3 ----------------- */
+	DGB_Print(MODULE, "ITS_TestCase 3: PASSED");
+	DGB_Error(MODULE, "ITS_TestCase 3: PASSED");
+
+	/* --------------------- ITS_TestCase_4 ----------------- */
+	variant_test = getVariantId();
+	if(variant_test >= 0 && variant_test<= 4)
+	{
+		(void)DGB_Print(MODULE,"ITS_TestCase 4: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"ITS_TestCase 4: Failed");
+	}
+
+	/* --------------------- ITS_TestCase_5 ----------------- */
+	lock_test =  determineDoorLockingStatus();
+	wind_test =  determineWindowPosition();
+	if( (lock_test == DOOR_UNLOCKED) &&
+			(wind_test == WINDOW_COMPLETELY_OPEN) )
+	{
+		(void)DGB_Print(MODULE,"ITS_TestCase 5: PASSED");
+	}
+	else
+	{
+		(void)DGB_Error(MODULE,"ITS_TestCase 5: Failed");
+	}
+}
+
 

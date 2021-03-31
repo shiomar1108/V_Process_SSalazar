@@ -14,4 +14,6 @@ extern void SerialManager_Init();
 extern void DGB_Print(char* module, char*text);
 extern void DGB_Error(char* module, char*text);
 
+extern void SerialMananger_UnitTest( void );
+
 #endif /* SERIALMANAGER_H_ */

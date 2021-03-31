@@ -19,4 +19,7 @@ extern void DCM_Process_Req( void );
 extern void setManualFlag (bool data);
 extern void setTestFlag (bool data);
 
+extern void DCM_App_UnitTest( void );
+extern void DCM_APP_IntegrationTest( void );
+
 #endif /* DCM_APP_H_ */

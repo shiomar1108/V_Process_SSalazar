@@ -35,6 +35,10 @@
 
 #define MODULE "TASK"
 
+#define DCM_APP_UT					(0)
+#define SM_UT						(0)
+#define DCM_APP_IT					(1)
+
 /*-----------------------------------------------------------*/
 /* Function Prototypes */
 
@@ -76,6 +80,15 @@ void DCM_Init (void)
 	(void)DCM_App_Init();
 	Actuator_Manager_Init();
 	CAN_HandlerInit(CAN_Debug_SW_Variant);
+#if DCM_APP_UT
+	(void)DCM_App_UnitTest();
+#endif
+#if SM_UT
+	(void)SerialMananger_UnitTest();
+#endif
+#if DCM_APP_IT
+	(void)DCM_APP_IntegrationTest();
+#endif
 }
 /*-----------------------------------------------------------*/
 
